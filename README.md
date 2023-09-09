@@ -13,3 +13,5 @@ User Registration: Users can easily sign up by providing their email and passwor
 User Authentication: Secure user authentication using hashed passwords and token-based sessions.
 
 MongoDB Integration: Utilizes MongoDB to store user data securely.
+
+Middlewares: Checks for the Protected route of Admin and Student.
