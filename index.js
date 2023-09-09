@@ -25,5 +25,5 @@ dbConnect();
 
 
 app.get("/", (req, res) => {
-  res.send(`<h1> Checking for Authentication & Authorization.</h1>`);
+  res.send(`<h1> Checking for Authentication & Authorization........</h1>`);
 });
