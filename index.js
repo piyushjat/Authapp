@@ -20,7 +20,7 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   // Send the HTML file as a response
-  res.sendFile(path.join(__dirname, 'public', 'login.html'));
+  res.sendFile(path.join(__dirname,"public", 'index.html'));
 });
 
 app.listen(PORT, () => {
